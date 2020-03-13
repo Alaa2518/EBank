@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:"Roboto","sans-serif"
+}
+
+body{
+    background-color:lightsteelblue;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    
+}
+.container
+{
+    max-width: 1300px;
+}
+header
+{
+    width: auto;
+    overflow: auto;
+    margin-top: 2%;
+    
+}
+
+.logo
+{
+    float: left;
+}
+.logo h2
+{
+    color: #fff;
+    margin-left: 20px
+}
+
+nav
+{
+    float: right;
+}
+nav ul
+{
+    width: auto;
+    overflow: auto;
+    
+}
+nav ul li
+{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 30px;
+}
+
+nav ul li:hover
+{
+    border: 1px solid #fff;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+nav ul .active
+{
+    border: 1px solid #fff;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    
+}
+.text
+{
+    margin-top: 13%;
+}
+.text h1
+{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-family: monospace;
+}
+
+.buttons
+{
+    margin-left: 41%;
+}
+
+button
+{
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    margin-top: 10%;
+    margin-right: 25px;
+}
+
+button a
+{
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+.btn-1
+{
+    background: #0984e3;
+    border: 1px solid #0984e3;
+}
+.btn-2:hover
+{
+    background: #0984e3;
+    border: 1px solid #0984e3;
+}
